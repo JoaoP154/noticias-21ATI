@@ -57,6 +57,8 @@ body.menu-open::before {
     gap: 1.5rem;
 }
 
+
+.header-mobile
 .primeira-secao {
     align-items: flex-end;
     margin-bottom: 4rem;
