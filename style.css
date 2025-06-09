@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "inter", sans-serif;
+    font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -25,7 +25,7 @@ body.escurecer::before {
     position: fixed;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 26, 0.5);
     top: 0;
     left: 0;
 }
@@ -49,7 +49,7 @@ header button {
 header nav.mobile {
     position: fixed;
     background-color: var(--almost-white);
-    right: 0;
+    right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -68,8 +68,8 @@ header nav.mobile.abrir {
 }
 
 header nav button {
-    align-items: flex-end;
-    margin-bottom: 5.5rem;
+    align-self: flex-end;
+    margin-bottom: 4rem;
 }
 
 header .mobile a {
